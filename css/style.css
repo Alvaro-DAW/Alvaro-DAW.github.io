@@ -52,6 +52,7 @@ nav {
 footer {
     background-color: #fa991c;
     grid-area: footer;
+    padding:1em;
 }
 
 .iconos, .linkContainer {
@@ -62,7 +63,10 @@ footer {
     justify-content: center;
     justify-content: space-evenly;
 }
-
+a{
+    text-decoration: none;
+    color: #002c3e;
+}
 .links {
     text-decoration: none;
     font-weight: 700;
